@@ -1,0 +1,31 @@
+.footerList{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerListElement{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+
+    padding: 28px;
+    width: 480px;
+}
+
+.footerListElement a,p{
+    color: #FFF;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}

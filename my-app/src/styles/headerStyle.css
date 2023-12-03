@@ -1,0 +1,157 @@
+/*NavBar*/
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navElement{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 50px;
+    margin: 14px 60px;
+}
+
+.navElement a{
+    color: #fff;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*SearchBar*/
+
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin: 17px 0 17px 60px;
+}
+.logo p{
+    color: #000;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 6.16px;
+}
+
+.interactivity{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.catalogButton{
+    width: 173px;
+    height: 61px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+    border: none;
+    border-radius: 5px;
+    background-color: #F2E4CC;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.catalogButton:hover{
+    background-color: #d2c5b3;
+}
+
+.catalogButton img{
+    margin: 0 0 0 18px;
+}
+
+.catalogButton p{
+    color: #000;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.searchInput{
+    width: 600px;
+    height: 61px;
+
+    padding: 0 24px;
+
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: #F6F4EA;
+
+    color: #757575;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.searchInput:focus-visible{
+    border: none;
+    outline: none;
+}
+
+.searchButton{
+    width: 93px;
+    height: 61px;
+
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #820C1D;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.searchButton:hover{
+    background-color: #a40f22;
+}
+
+.basket{
+    margin: 0 60px 0 0;
+}
+
+.basket a{
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
