@@ -12,7 +12,11 @@
     align-items: center;
 
     gap: 50px;
-    margin: 14px 60px;
+    margin: 0 60px;
+}
+
+.navElement p{
+    margin: 10px 0;
 }
 
 .navElement a{
@@ -23,6 +27,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    text-decoration: none;
 }
 
 /*SearchBar*/
@@ -153,6 +158,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    text-decoration: none;
 }
 
 
