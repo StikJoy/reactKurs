@@ -1,0 +1,46 @@
+.tyElements{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+
+    margin: 72px auto;
+}
+
+.tyElements h1{
+    color: #12294C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin: 10px auto;
+}
+
+.tyElements p{
+    color: #5B5B5B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tyElements button{
+    width: 20vw;
+    height: 10vh;
+
+    margin: 62px auto;
+    padding: 5px;
+
+    border-radius: 5px;
+    border: 1px solid #12294C;
+    background: #12294C;
+
+    color: #F5F3EB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
