@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/reactKurs/static/css/main.c248d7fb.css",
-    "main.js": "/reactKurs/static/js/main.02abe33b.js",
+    "main.css": "/reactKurs/static/css/main.a39132c3.css",
+    "main.js": "/reactKurs/static/js/main.b5bb5d61.js",
     "static/media/book.png": "/reactKurs/static/media/book.6911db0030dc29add421.png",
+    "static/media/Carusel2.jpg": "/reactKurs/static/media/Carusel2.62619eb132d7c0ce2708.jpg",
+    "static/media/Carusel1.jpg": "/reactKurs/static/media/Carusel1.863fd1ef4d39a4522c54.jpg",
+    "static/media/Carusel4.jpg": "/reactKurs/static/media/Carusel4.390531067e533cfaadfe.jpg",
+    "static/media/Carusel3.png": "/reactKurs/static/media/Carusel3.4afe3bdcafcf4bb23b17.png",
+    "static/media/gifBanner.gif": "/reactKurs/static/media/gifBanner.a6f16e7fcbc53ec8f3e8.gif",
     "static/media/logo.svg": "/reactKurs/static/media/logo.6a1eb142bdffcbf38a1641930b8c085e.svg",
     "static/media/WA.svg": "/reactKurs/static/media/WA.e6833e4ea58d6473d9f36874bed0fce2.svg",
     "static/media/VK.svg": "/reactKurs/static/media/VK.9a999e64b22147676173b8a466116379.svg",
-    "static/media/YT.svg": "/reactKurs/static/media/YT.d85ad2ac077c093c33281d9e72a01f5d.svg",
     "index.html": "/reactKurs/index.html",
+    "static/media/YT.svg": "/reactKurs/static/media/YT.d85ad2ac077c093c33281d9e72a01f5d.svg",
     "static/media/TG.svg": "/reactKurs/static/media/TG.e5929d8ecf69aeeefa400fecdac7b471.svg",
     "static/media/search2.svg": "/reactKurs/static/media/search2.d343d99e336cce1b2d5d2d903ce6cde8.svg",
-    "main.c248d7fb.css.map": "/reactKurs/static/css/main.c248d7fb.css.map",
-    "main.02abe33b.js.map": "/reactKurs/static/js/main.02abe33b.js.map"
+    "main.a39132c3.css.map": "/reactKurs/static/css/main.a39132c3.css.map",
+    "main.b5bb5d61.js.map": "/reactKurs/static/js/main.b5bb5d61.js.map"
   },
   "entrypoints": [
-    "static/css/main.c248d7fb.css",
-    "static/js/main.02abe33b.js"
+    "static/css/main.a39132c3.css",
+    "static/js/main.b5bb5d61.js"
   ]
 }
