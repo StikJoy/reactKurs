@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/containerStyle.css";
 import "../styles/headerStyle.css";
 
-import logo from "../img/logo.png";
+import logo from "../img/logo.svg";
 import catalog from "../img/catalog.png";
 import search from "../img/search2.svg";
 
@@ -36,7 +36,6 @@ const Header = function () {
                 <div className="searchBar">
                     <div className="logo">
                         <img src={logo} alt="#"/>
-                        <p>ЛОГОТИП</p>
                     </div>
                     <div className="interactivity">
                         <div className="catalog">

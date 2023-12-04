@@ -1,4 +1,5 @@
 import React from 'react';
+import "../styles/containerStyle.css";
 import "../styles/tyStyle.css"
 
 const Ty = function () {

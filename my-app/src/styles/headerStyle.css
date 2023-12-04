@@ -39,7 +39,7 @@
     flex-direction: column;
     text-align: center;
 
-    margin: 17px 0 17px 60px;
+    margin: 9px 0 9px 72px;
 }
 .logo p{
     color: #000;
@@ -148,10 +148,42 @@
 .basket a{
     color: #FFF;
 
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+
+@media (max-width: 1400px){
+
+    .logo img{
+        width: 80px;
+    }
+
+    .catalogButton{
+
+        width: 150px;
+        height: 50px;
+    }
+    .catalogButton img{
+        width: 25px;
+    }
+    .catalogButton p{
+        font-size: 16px;
+    }
+    .searchInput{
+        width: 500px;
+        height: 50px;
+    }
+    .searchButton{
+        width: 85px;
+        height: 50px;
+    }
+
+    .basket a{
+        font-size: 18px;
+    }
 }
 

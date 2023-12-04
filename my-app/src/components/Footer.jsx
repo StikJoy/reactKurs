@@ -23,7 +23,7 @@ const Footer = function () {
                                 <a href="/#"><img src={YT} alt="#"/></a>
                             </div>
                         </div>
-                        <div className="footerListElement">
+                        <div className="footerListElement border">
                             <a href="/#">КАТАЛОГ</a>
                             <a href="/#">ВСЕ КНИГИ</a>
                             <a href="/#">СКИДКИ</a>
