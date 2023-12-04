@@ -1,0 +1,72 @@
+.bookCard{
+    width: 230px;
+    height: 405px;
+
+    margin: 15px auto;
+
+    background: #F5F3EB;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+.bookImage img{
+    width: 176px;
+    height: 258px;
+
+    padding: 9px 27px;
+}
+
+.bookDescription{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+
+.nameAuthor h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.nameAuthor p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bookButton button{
+    width: 120px;
+    height: 43px;
+
+    margin: 16px;
+
+    border: none;
+    border-radius: 5px;
+    background: #820C1D;
+
+    color: #F2E4CC;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.bookButton button:hover{
+
+    background: #a40f22;
+
+}

@@ -1,0 +1,100 @@
+.basketElements{
+    margin: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/*title*/
+
+.basketTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.basketTitle h1{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.basketTitle p{
+    color: #757575;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.basketTitle p:hover{
+    color: #4b4b4b;
+}
+
+.basketBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/*INFO*/
+
+.basketInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.basketInfoPrice{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.basketCost, .basketDiscount, .basketPrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.basketInfoPrice button{
+    width: 295px;
+    height: 82px;
+
+    border: none;
+    border-radius: 5px;
+    background: #820C1D;
+
+    color: #F5F3EB;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    cursor: pointer;
+}
+
+
+@media (max-width: 1400px){
+
+}
