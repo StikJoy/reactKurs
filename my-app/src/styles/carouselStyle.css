@@ -1,5 +1,17 @@
-.carousel{
+.banner{
+    width: 1260px;
+    height: 80px;
+
+    margin: 40px auto;
+
+    background-color: #ECB800;
+}
+
+.carouselBanner{
     width: 1300px;
     height: 500px;
 
+    margin: 0 auto 40px auto;
+
+    background-color: black;
 }

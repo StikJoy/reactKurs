@@ -1,4 +1,6 @@
 import React from 'react';
+import "../styles/containerStyle.css";
+import "../styles/carouselStyle.css";
 
 const Carousel = function () {
 
@@ -6,7 +8,7 @@ const Carousel = function () {
         <div>
             <div className="container">
                 <div className="carousel">
-                    <div className="banner">
+                    <div className="carouselBanner">
 
                     </div>
                 </div>
