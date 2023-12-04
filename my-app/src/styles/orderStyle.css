@@ -1,0 +1,174 @@
+.orderElements{
+    margin: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.title h1{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin-bottom: 10px;
+}
+
+.orderForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/*INPUT*/
+
+.orderInput{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 55px;
+}
+
+.orderInput h2{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin: 15px 0 5px 0;
+}
+
+.orderInputElements{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    padding: 36px 55px;
+
+    border-radius: 4px;
+    border: 1px solid #ABABAB;
+}
+
+.orderInput input{
+    width: 30vw;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #ABABAB;
+
+    background-color: #F5F3EB;;
+
+    padding: 0 10px;
+
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fio{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+/*INFO*/
+
+.orderInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.orderInfoPrice{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cost, .discount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.agree input{
+    transform: scale(1.5);
+    padding: 10px;
+    margin: 5px;
+
+    background-color: #F5F3EB;;
+}
+
+/*SUBMIT*/
+
+hr{
+    margin-top: 80px;
+}
+
+.submitButton{
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    gap: 50vw;
+
+    margin: 35px 0 100px 60px;
+}
+
+.submitButton button{
+    width: 20vw;
+    height: 10vh;
+
+    border: none;
+    border-radius: 5px;
+    background: #820C1D;
+
+    color: #F5F3EB;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.finalPrice{
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+@media (max-width: 1400px){
+    .orderInput{
+        width: 650px;
+    }
+
+    .orderInputElements {
+        width: 650px;
+    }
+}
