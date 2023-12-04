@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactKurs/static/css/main.587d99ad.css",
-    "main.js": "/reactKurs/static/js/main.a7a68d3d.js",
+    "main.css": "/reactKurs/static/css/main.c248d7fb.css",
+    "main.js": "/reactKurs/static/js/main.02abe33b.js",
     "static/media/book.png": "/reactKurs/static/media/book.6911db0030dc29add421.png",
     "static/media/logo.svg": "/reactKurs/static/media/logo.6a1eb142bdffcbf38a1641930b8c085e.svg",
     "static/media/WA.svg": "/reactKurs/static/media/WA.e6833e4ea58d6473d9f36874bed0fce2.svg",
@@ -10,11 +10,11 @@
     "index.html": "/reactKurs/index.html",
     "static/media/TG.svg": "/reactKurs/static/media/TG.e5929d8ecf69aeeefa400fecdac7b471.svg",
     "static/media/search2.svg": "/reactKurs/static/media/search2.d343d99e336cce1b2d5d2d903ce6cde8.svg",
-    "main.587d99ad.css.map": "/reactKurs/static/css/main.587d99ad.css.map",
-    "main.a7a68d3d.js.map": "/reactKurs/static/js/main.a7a68d3d.js.map"
+    "main.c248d7fb.css.map": "/reactKurs/static/css/main.c248d7fb.css.map",
+    "main.02abe33b.js.map": "/reactKurs/static/js/main.02abe33b.js.map"
   },
   "entrypoints": [
-    "static/css/main.587d99ad.css",
-    "static/js/main.a7a68d3d.js"
+    "static/css/main.c248d7fb.css",
+    "static/js/main.02abe33b.js"
   ]
 }
