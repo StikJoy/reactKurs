@@ -1,13 +1,13 @@
 import React from 'react';
-import "../styles/containerStyle.css";
-import "../styles/tyStyle.css"
+import "../../styles/containerStyle.css";
+import "../../styles/tyStyle.css"
 
-const Ty = function () {
+const TyPage = function () {
     return (
         <div>
             <div className="container">
                 <div className="tyElements">
-                    <img src="#" alt="#"/>
+                    <img src="my-app/src/components/Pages/TyPage#" alt="#"/>
                     <h1>Спасибо за заказ</h1>
                     <p>Наш менеджер скоро свяжется с вами!</p>
                     <button>Вернуться в магазин</button>
@@ -17,4 +17,4 @@ const Ty = function () {
     );
 };
 
-export default Ty;
+export default TyPage;

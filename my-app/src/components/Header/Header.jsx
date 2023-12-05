@@ -1,10 +1,11 @@
 import React from 'react';
-import "../styles/containerStyle.css";
-import "../styles/headerStyle.css";
+import "../../styles/containerStyle.css";
+import "./headerStyle.css";
 
-import logo from "../img/logo.svg";
-import catalog from "../img/catalog.png";
-import search from "../img/search2.svg";
+import logo from "./img/logo.svg";
+import catalog from "./img/catalog.png";
+import search from "./img/search2.svg";
+import {Link} from "react-router-dom";
 
 const Header = function () {
 
@@ -15,17 +16,17 @@ const Header = function () {
             <div className= "container">
                 <div className="navBar">
                     <div className="navElement">
-                        <a href="/#">Оплата и доставка</a>
-                        <a href="/#:">Рейтинги/Отзывы</a>
-                        <a href="/#:">Скидки</a>
+                        <Link to="/DeliveryPage">Оплата и доставка</Link>
+                        <Link to="/AboutPage">Рейтинги/Отзывы</Link>
+                        <Link to="/MainPage">Скидки</Link>
                     </div>
 
                     <div className="navElement">
-                        <a href="/#">Контакты</a>
-                        <a href="/#">
+                        <Link to="/ContactPage">Контакты</Link>
+                        <span>
                             <p>+7 (999) 999 99 99</p>
                             <p>круглосуточно</p>
-                        </a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -39,10 +40,12 @@ const Header = function () {
                     </div>
                     <div className="interactivity">
                         <div className="catalog">
-                            <button className="catalogButton">
-                                <img src={catalog} alt="#"/>
-                                <p>Каталог</p>
-                            </button>
+                            <Link to="/MainPage">
+                                <button className="catalogButton">
+                                    <img src={catalog} alt="#"/>
+                                    <p>Каталог</p>
+                                </button>
+                            </Link>
                         </div>
 
                         <div className="search">
@@ -52,7 +55,7 @@ const Header = function () {
                     </div>
 
                     <div className="basket">
-                        <a href="/#">КОРЗИНА</a>
+                        <Link to="/BasketPage">КОРЗИНА</Link>
                     </div>
                 </div>
             </div>

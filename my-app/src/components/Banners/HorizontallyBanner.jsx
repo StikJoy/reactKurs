@@ -1,6 +1,6 @@
 import React from 'react';
-import "../styles/containerStyle.css";
-import "../styles/carouselStyle.css";
+import "../../styles/containerStyle.css";
+import "./carouselStyle.css";
 // import gifBanner from "../img/gifBanner.gif"
 
 const HorizontallyBanner = function () {
@@ -8,7 +8,7 @@ const HorizontallyBanner = function () {
         <div>
             <div className="container">
                 <div className="banner">
-                    <img src={require('../img/gifBanner.gif')} alt="#"/>
+                    <img src={require('./img/gifBanner.gif')} alt="#"/>
                 </div>
             </div>
         </div>

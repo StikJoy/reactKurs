@@ -1,11 +1,11 @@
 import React from 'react';
-import "../styles/containerStyle.css";
-import "../styles/carouselStyle.css";
+import "../../styles/containerStyle.css";
+import "./carouselStyle.css";
 
-import carousel1 from "../img/Carusel1.jpg"
-import carousel2 from "../img/Carusel2.jpg"
-import carousel3 from "../img/Carusel3.png"
-import carousel4 from "../img/Carusel4.jpg"
+import carousel1 from "./img/Carusel1.jpg"
+import carousel2 from "./img/Carusel2.jpg"
+import carousel3 from "./img/Carusel3.png"
+import carousel4 from "./img/Carusel4.jpg"
 
 const Carousel = function () {
 

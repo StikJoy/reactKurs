@@ -1,7 +1,7 @@
 import React from 'react';
-import "../styles/containerStyle.css";
-import "../styles/bookCard.css";
-import name from "../img/book.png";
+import "../../styles/containerStyle.css";
+import "./bookCard.css";
+import name from "./img/book.png";
 
 const Book = function (props) {
     return (

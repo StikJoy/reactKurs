@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 /*NavBar*/
 
 .navBar{
@@ -28,6 +32,32 @@
     font-weight: 600;
     line-height: normal;
     text-decoration: none;
+}
+
+.navElement a:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+}
+
+.navElement a:hover:after {
+    width: 100%;
+}
+
+.navElement span{
+    color: #fff;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+
+    cursor: default;
 }
 
 /*SearchBar*/
@@ -63,6 +93,10 @@
     gap: 15px;
 }
 
+.catalog Link{
+    text-decoration: none;
+}
+
 .catalogButton{
     width: 173px;
     height: 61px;
@@ -91,6 +125,8 @@
 
 .catalogButton p{
     color: #000;
+
+    margin: 0;
 
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -159,6 +195,19 @@
     font-weight: 600;
     line-height: normal;
     text-decoration: none;
+}
+
+.basket a:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+}
+
+.basket a:hover:after {
+    width: 100%;
 }
 
 

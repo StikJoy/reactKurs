@@ -1,8 +1,8 @@
 import React from 'react';
-import "../styles/containerStyle.css";
-import "../styles/orderStyle.css";
+import "../../styles/containerStyle.css";
+import "../../styles/orderStyle.css";
 
-const Order = function () {
+const OrderPage = function () {
     return (
         <div>
           <div className="container">
@@ -10,7 +10,7 @@ const Order = function () {
                   <div className="title">
                       <h1>Оформление заказа</h1>
                   </div>
-                  <form action="#">
+                  <form action="my-app/src/components/Pages/OrderPage#">
                       <div className="orderForm">
                           <div className="orderInputBlock">
                               <div className="orderInput">
@@ -73,4 +73,4 @@ const Order = function () {
     );
 };
 
-export default Order;
+export default OrderPage;
