@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactKurs/static/css/main.6144f582.css",
-    "main.js": "/reactKurs/static/js/main.f4776225.js",
+    "main.js": "/reactKurs/static/js/main.a59ee969.js",
     "static/media/book.png": "/reactKurs/static/media/book.6911db0030dc29add421.png",
     "static/media/Carusel2.jpg": "/reactKurs/static/media/Carusel2.62619eb132d7c0ce2708.jpg",
     "static/media/mapContact.png": "/reactKurs/static/media/mapContact.f3b88e9b22dc584735e4.png",
@@ -19,10 +19,10 @@
     "static/media/TG.svg": "/reactKurs/static/media/TG.e5929d8ecf69aeeefa400fecdac7b471.svg",
     "static/media/search2.svg": "/reactKurs/static/media/search2.d343d99e336cce1b2d5d2d903ce6cde8.svg",
     "main.6144f582.css.map": "/reactKurs/static/css/main.6144f582.css.map",
-    "main.f4776225.js.map": "/reactKurs/static/js/main.f4776225.js.map"
+    "main.a59ee969.js.map": "/reactKurs/static/js/main.a59ee969.js.map"
   },
   "entrypoints": [
     "static/css/main.6144f582.css",
-    "static/js/main.f4776225.js"
+    "static/js/main.a59ee969.js"
   ]
 }
