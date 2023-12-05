@@ -1,0 +1,48 @@
+.text{
+    text-align: left;
+
+    margin: 100px  60px 500px 60px;
+}
+
+.text h1{
+    margin-bottom: 24px;
+}
+
+.text pre{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text span{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.textImage{
+    margin: auto;
+
+    width: 1300px;
+}
+
+.textImage img{
+    width: 1300px;
+}
+
+@media (max-width: 1400px){
+
+    .textImage{
+        width: 1000px;
+    }
+
+    .textImage img{
+        width: 1000px;
+    }
+}
