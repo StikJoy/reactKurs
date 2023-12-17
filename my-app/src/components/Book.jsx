@@ -2,25 +2,14 @@ import "../styles/containerStyle.css";
 import "./Books/bookCard.css";
 import name from "../img/22.jpeg";
 
-import { useBasketContext } from './BasketContext';
-
+import bookList, { addItemIfNotExists } from "./BookList";
 
 const Book = function (props) {
 
-    const { addToBasket } = useBasketContext();
+    function addBook() {
+        console.log(bookList);
 
-    function addProduct() {
-        const newProduct = {
-            id: props.post.id,
-            image: props.post.image,
-            name: props.post.name,
-            author: props.post.author,
-            price: props.post.price
-        }
-
-        console.log(newProduct)
-
-        addToBasket(newProduct);
+        addItemIfNotExists(props.post.id);
     }
 
     return (
@@ -41,7 +30,7 @@ const Book = function (props) {
                 </div>
 
                 <div className="bookButton">
-                    <button onClick={addProduct} >В КОРЗИНУ</button>
+                    <button onClick={addBook} >В КОРЗИНУ</button>
                 </div>
             </div>
         </div>

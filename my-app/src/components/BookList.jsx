@@ -1,14 +1,16 @@
-import React from 'react';
-import BasketProduct from "./BasketProduct";
+const bookList = [];
 
-const BookList = () => {
-    return (
-        <div className="products">
+export default bookList;
 
-            {products1.map(post =>
-                <BasketProduct post={post} key={post.id}/>)}
-        </div>
-    );
-};
+export function addItemIfNotExists(item) {
+    if (!bookList.includes(item)) {
+        bookList.push(item);
+    }
+}
 
-export default BookList;
+export function removeItemIfExists(item) {
+    const index = bookList.indexOf(item);
+    if (index !== -1) {
+        bookList.splice(index, 1);
+    }
+}
