@@ -13,37 +13,41 @@ import RequisitePage from "./components/Pages/RequisitePage";
 import ContactPage from "./components/Pages/ContactPage";
 import AboutPage from "./components/Pages/AboutPage";
 
+import { BasketProvider } from './components/BasketContext';
+
 function App() {
 
 
   return (
-      <BrowserRouter>
-          <div className="App">
-            <Header/>
+      <BasketProvider>
+          <BrowserRouter>
+              <div className="App">
+                <Header/>
 
-            <Routes>
-                <Route path="*" element={<Navigate to="/MainPage" replace />} />
+                <Routes>
+                    <Route path="*" element={<Navigate to="/MainPage" replace />} />
 
-                <Route path={"/MainPage"} element={<MainPage/>}/>
+                    <Route path={"/MainPage"} element={<MainPage/>}/>
 
-                <Route path={"/BasketPage"} element={<BasketPage/>}/>
+                    <Route path={"/BasketPage"} element={<BasketPage/>}/>
 
-                <Route path={"/OrderPage"} element={<OrderPage/>}/>
+                    <Route path={"/OrderPage"} element={<OrderPage/>}/>
 
-                <Route path={"/TyPage"} element={<TyPage/>}/>
+                    <Route path={"/TyPage"} element={<TyPage/>}/>
 
-                <Route path={"/DeliveryPage"} element={<DeliveryPage/>}/>
+                    <Route path={"/DeliveryPage"} element={<DeliveryPage/>}/>
 
-                <Route path={"/RequisitePage"} element={<RequisitePage/>}/>
+                    <Route path={"/RequisitePage"} element={<RequisitePage/>}/>
 
-                <Route path={"/ContactPage"} element={<ContactPage/>}/>
+                    <Route path={"/ContactPage"} element={<ContactPage/>}/>
 
-                <Route path={"/AboutPage"} element={<AboutPage/>}/>
-            </Routes>
+                    <Route path={"/AboutPage"} element={<AboutPage/>}/>
+                </Routes>
 
-            <Footer/>
-          </div>
-      </BrowserRouter>
+                <Footer/>
+              </div>
+          </BrowserRouter>
+      </BasketProvider>
   );
 }
 

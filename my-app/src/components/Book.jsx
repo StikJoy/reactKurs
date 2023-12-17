@@ -1,8 +1,14 @@
-import "../../styles/containerStyle.css";
-import "./bookCard.css";
-import name from "../../img/22.jpeg";
+import "../styles/containerStyle.css";
+import "./Books/bookCard.css";
+import name from "../img/22.jpeg";
+
+import { useBasketContext } from './BasketContext';
+
 
 const Book = function (props) {
+
+    const { addToBasket } = useBasketContext();
+
     function addProduct() {
         const newProduct = {
             id: props.post.id,
@@ -13,6 +19,8 @@ const Book = function (props) {
         }
 
         console.log(newProduct)
+
+        addToBasket(newProduct);
     }
 
     return (
