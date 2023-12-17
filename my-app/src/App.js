@@ -3,7 +3,7 @@ import "./styles/App.css";
 import Header from "./components/Header/Header"
 
 import Footer from "./components/Footer/Footer";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
 import MainPage from "./components/Pages/MainPage";
 import BasketPage from "./components/Pages/BasketPage";
 import OrderPage from "./components/Pages/OrderPage";
@@ -22,6 +22,8 @@ function App() {
             <Header/>
 
             <Routes>
+                <Route path="*" element={<Navigate to="/MainPage" replace />} />
+
                 <Route path={"/MainPage"} element={<MainPage/>}/>
 
                 <Route path={"/BasketPage"} element={<BasketPage/>}/>

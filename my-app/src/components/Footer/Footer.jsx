@@ -30,7 +30,7 @@ const Footer = function () {
                             <Link to="/MainPage">СКИДКИ</Link>
                         </div>
                         <div className="footerListElement">
-                            <Link to="/my-app/public#">КОНТАКТЫ</Link>
+                            <Link to="/ContactPage">КОНТАКТЫ</Link>
                             <Link to="/RequisitePage">РЕКВИЗИТЫ ОРГАНИЗАЦИИ</Link>
                             <Link to="/my-app/public#">ПОЛИТИКА БЕЗОПАСНОСТИ</Link>
                         </div>

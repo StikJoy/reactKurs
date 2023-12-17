@@ -1,9 +1,20 @@
-import React from 'react';
 import "../../styles/containerStyle.css";
 import "./bookCard.css";
-import name from "./img/book.png";
+import name from "../../img/22.jpeg";
 
 const Book = function (props) {
+    function addProduct() {
+        const newProduct = {
+            id: props.post.id,
+            image: props.post.image,
+            name: props.post.name,
+            author: props.post.author,
+            price: props.post.price
+        }
+
+        console.log(newProduct)
+    }
+
     return (
         <div >
             <div className="bookCard">
@@ -22,7 +33,7 @@ const Book = function (props) {
                 </div>
 
                 <div className="bookButton">
-                    <button>В КОРЗИНУ</button>
+                    <button onClick={addProduct} >В КОРЗИНУ</button>
                 </div>
             </div>
         </div>

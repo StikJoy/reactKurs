@@ -1,21 +1,26 @@
 import React, {useState} from 'react';
+import "../styles/basketProductStyle.css";
 
 const Counter = function (){
-    const[count, setCount] = useState(0)
+    const[count, setCount] = useState(1)
 
     function inc(){
-        setCount(count + 1)
+        if  (count < 10) {
+            setCount(count + 1)
+        }
     }
 
     function dec(){
-        setCount(count - 1)
+        if  (count > 1) {
+            setCount(count - 1)
+        }
     }
 
     return(
-        <div>
-            <h1>{count}</h1>
-            <button onClick={inc}>Кнопка 1</button>
-            <button onClick={dec}>Кнопка 2</button>
+        <div className="counter">
+            <button onClick={dec}>-</button>
+            <p>{count}</p>
+            <button onClick={inc}>+</button>
         </div>
     )
 }
