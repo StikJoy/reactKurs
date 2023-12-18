@@ -65,7 +65,7 @@
     transition: all 0.3s ease;
 }
 
-.del{
+.activeMyButton{
     width: 120px;
     height: 43px;
 
@@ -87,8 +87,27 @@
     transition: all 0.3s ease;
 }
 
-.add:hover{
+.carouselButt{
+    width: 120px;
+    height: 43px;
 
-    background: #a40f22;
+    margin: 16px;
+
+    border-radius: 5px;
+    border: none;
+    background: #12294C;
+
+    color: #F5F3EB;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    cursor: pointer;
+
+}
+
+@media (max-width: 1400px){
 
 }

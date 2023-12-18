@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import "../styles/containerStyle.css";
 import "./Books/bookCard.css";
 import name from "../img/22.jpeg";
@@ -6,10 +7,14 @@ import bookList, { addItemIfNotExists } from "./BookList";
 
 const Book = function (props) {
 
+    const [isButtonActive, setButtonActive] = useState(false);
+
     function addBook() {
         console.log(bookList);
 
         addItemIfNotExists(props.post.id);
+
+        setButtonActive(!isButtonActive);
     }
 
     return (
@@ -30,7 +35,7 @@ const Book = function (props) {
                 </div>
 
                 <div className="bookButton">
-                    <button className="del" onClick={addBook} >В КОРЗИНУ</button>
+                    <button className={`add ${isButtonActive ? 'activeMyButton' : ''}`} onClick={addBook} >В КОРЗИНУ</button>
                 </div>
             </div>
         </div>

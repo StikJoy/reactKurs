@@ -3,8 +3,14 @@ const bookList = [];
 export default bookList;
 
 export function addItemIfNotExists(item) {
-    if (!bookList.includes(item)) {
+    const index = bookList.indexOf(item);
+
+    if (index === -1) {
+        // Если элемент не найден, добавляем его
         bookList.push(item);
+    } else {
+        // Если элемент уже есть в списке, удаляем его
+        bookList.splice(index, 1);
     }
 }
 
