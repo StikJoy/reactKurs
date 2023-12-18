@@ -30,7 +30,7 @@ const Book = function (props) {
                 </div>
 
                 <div className="bookButton">
-                    <button onClick={addBook} >В КОРЗИНУ</button>
+                    <button className="del" onClick={addBook} >В КОРЗИНУ</button>
                 </div>
             </div>
         </div>

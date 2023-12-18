@@ -43,7 +43,7 @@
     font-weight: 700;
 }
 
-.bookButton button{
+.add{
     width: 120px;
     height: 43px;
 
@@ -65,7 +65,29 @@
     transition: all 0.3s ease;
 }
 
-.bookButton button:hover{
+.del{
+    width: 120px;
+    height: 43px;
+
+    margin: 16px;
+
+    border-radius: 5px;
+    border: 1px solid #12294C;
+    background: rgba(130, 12, 29, 0.00);
+
+    color: #12294C;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.add:hover{
 
     background: #a40f22;
 

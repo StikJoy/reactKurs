@@ -14,3 +14,8 @@ export function removeItemIfExists(item) {
         bookList.splice(index, 1);
     }
 }
+
+export function clearList() {
+    bookList.splice(0, bookList.length);
+}
+
