@@ -27,22 +27,25 @@ const CarouselCards = () => {
     };
 
     return (
-        <div className="container" style={{ backgroundColor: '#58746E', padding: '20px', margin: '20px auto' }}>
-            <div className="row">
-                {cards.slice(currentSlide, currentSlide + 4).map((card) => (
-                    <div key={card.id} className="col-md-3">
-                        <Book post={card} />
-                    </div>
-                ))}
-            </div>
+        <div className="cardFon" style={{ backgroundColor: '#58746E', width: '100%'}}>
+            <div className="container" style={{ backgroundColor: '#58746E', padding: '20px', margin: '20px auto' }}>
 
-            <div className="mt-3">
-                <button className="carouselButt" onClick={prevSlide} disabled={currentSlide === 0}>
-                    Назад
-                </button>
-                <button className="carouselButt" onClick={nextSlide} disabled={currentSlide + 4 >= cards.length}>
-                    Вперед
-                </button>
+                <div className="row">
+                    {cards.slice(currentSlide, currentSlide + 4).map((card) => (
+                        <div key={card.id} className="col-md-3">
+                            <Book post={card} />
+                        </div>
+                    ))}
+                </div>
+
+                <div className="mt-3">
+                    <button className="carouselButt" onClick={prevSlide} disabled={currentSlide === 0}>
+                        Назад
+                    </button>
+                    <button className="carouselButt" onClick={nextSlide} disabled={currentSlide + 4 >= cards.length}>
+                        Вперед
+                    </button>
+                </div>
             </div>
         </div>
     );

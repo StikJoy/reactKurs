@@ -36,7 +36,9 @@ const Header = function () {
             <div className= "container">
                 <div className="searchBar">
                     <div className="logo">
-                        <img src={logo} alt="#"/>
+                        <Link to="/MainPage">
+                            <img src={logo} alt="#"/>
+                        </Link>
                     </div>
                     <div className="interactivity">
                         <div className="catalog">

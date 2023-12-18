@@ -4,12 +4,13 @@ import "../styles/basketProductStyle.css";
 import img from "../img/22.jpeg";
 import Counter from "./Counter";
 
-const BasketProduct = function (props, deleteBook) {
+const BasketProduct = function (props) {
 
     const [productCount, setProductCount] = useState(1);
 
     const handleCountChange = (newCount) => {
         setProductCount(newCount);
+        props.onCatchCauntChange(newCount);
     };
 
     return (
@@ -25,7 +26,9 @@ const BasketProduct = function (props, deleteBook) {
 
                 <div className="basketProductCost">
                     <div className="basketProductCostInfo">
-                        <Counter onCountChange={handleCountChange}/>
+                        <Counter
+                            onCountChange={handleCountChange}
+                        />
                         <h1>X</h1>
                         <p>{props.post.price * productCount} руб.</p>
                     </div>

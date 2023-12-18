@@ -29,7 +29,7 @@ const Basket = function () {
     const [finalPrice, setFinalPrice] = useState(0);
 
     const calculateTotals = (selectedProducts) => {
-        const totalCost = selectedProducts.reduce((total, product) => total + product.price, 0);
+        const totalCost = selectedProducts.reduce((total, product) => total + (product.price * catchProductCount),0);
         const discount = selectedProducts.reduce((total, product) => total + (product.discount || 0), 0);
         const finalPrice = totalCost - discount;
 
@@ -76,6 +76,12 @@ const Basket = function () {
         setFinalPrice(totals.finalPrice);
     }
 
+    const [catchProductCount, setCatchProductCount] = useState(1);
+
+    const catchCountChange = (newCount) => {
+        setCatchProductCount(newCount);
+    };
+
     return (
         <div>
             <div className="container">
@@ -114,9 +120,10 @@ const Basket = function () {
                         <div className="products">
                             {filteredProducts.map(post =>
                                 <BasketProduct
-                                    deleteBook={deleteBook}
-                                    post={post}
                                     key={post.id}
+                                    post={post}
+                                    deleteBook={deleteBook}
+                                    onCatchCauntChange = {catchCountChange}
                                 />)}
                         </div>
                     </div>
