@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/reactKurs/static/css/main.d1cc7f92.css",
-    "main.js": "/reactKurs/static/js/main.66218fcb.js",
+    "main.css": "/reactKurs/static/css/main.a7a522d3.css",
+    "main.js": "/reactKurs/static/js/main.1020e2ca.js",
+    "static/media/DownBanner.gif": "/reactKurs/static/media/DownBanner.cd5afe1019c046e846c6.gif",
+    "static/media/gifBanner2.gif": "/reactKurs/static/media/gifBanner2.3df3cbadda5b64c290e6.gif",
     "static/media/Carusel2.jpg": "/reactKurs/static/media/Carusel2.62619eb132d7c0ce2708.jpg",
     "static/media/mapContact.png": "/reactKurs/static/media/mapContact.f3b88e9b22dc584735e4.png",
-    "static/media/Carusel1.jpg": "/reactKurs/static/media/Carusel1.863fd1ef4d39a4522c54.jpg",
+    "static/media/Carusel1.jpg": "/reactKurs/static/media/Carusel1.15f1e941130af313e21b.jpg",
+    "static/media/gifLogo.gif": "/reactKurs/static/media/gifLogo.4dec37451825aa160d57.gif",
     "static/media/Carusel4.jpg": "/reactKurs/static/media/Carusel4.390531067e533cfaadfe.jpg",
     "static/media/Carusel3.png": "/reactKurs/static/media/Carusel3.4afe3bdcafcf4bb23b17.png",
+    "static/media/UpLight.gif": "/reactKurs/static/media/UpLight.2d5b091ced36769a6ae2.gif",
     "static/media/22.jpeg": "/reactKurs/static/media/22.ce2501dd6304ba974f91.jpeg",
     "static/media/aboutUs.png": "/reactKurs/static/media/aboutUs.59d80a4d1e569ffd73ed.png",
     "static/media/gifBanner.gif": "/reactKurs/static/media/gifBanner.a6f16e7fcbc53ec8f3e8.gif",
@@ -18,11 +22,12 @@
     "static/media/YT.svg": "/reactKurs/static/media/YT.d85ad2ac077c093c33281d9e72a01f5d.svg",
     "static/media/TG.svg": "/reactKurs/static/media/TG.e5929d8ecf69aeeefa400fecdac7b471.svg",
     "static/media/search2.svg": "/reactKurs/static/media/search2.d343d99e336cce1b2d5d2d903ce6cde8.svg",
-    "main.d1cc7f92.css.map": "/reactKurs/static/css/main.d1cc7f92.css.map",
-    "main.66218fcb.js.map": "/reactKurs/static/js/main.66218fcb.js.map"
+    "static/media/burgerIMG.svg": "/reactKurs/static/media/burgerIMG.6c77c423fddd649ca01625688cc8db93.svg",
+    "main.a7a522d3.css.map": "/reactKurs/static/css/main.a7a522d3.css.map",
+    "main.1020e2ca.js.map": "/reactKurs/static/js/main.1020e2ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1cc7f92.css",
-    "static/js/main.66218fcb.js"
+    "static/css/main.a7a522d3.css",
+    "static/js/main.1020e2ca.js"
   ]
 }
