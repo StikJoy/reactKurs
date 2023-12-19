@@ -1,9 +1,11 @@
 import React from 'react';
 import "../../styles/textStyle.css"
+import HorizontallyBanner2 from "../Banners/HorizontallyBanner2";
 
 const DeliveryPage = function () {
     return (
         <div className="container">
+            <HorizontallyBanner2/>
             <div className="text">
                 <h1>Доставка</h1>
 

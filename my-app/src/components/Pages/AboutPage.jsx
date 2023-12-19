@@ -2,10 +2,12 @@ import React from 'react';
 import "../../styles/textStyle.css";
 import aboutUs from "../../img/aboutUs.png";
 import aboutUs2 from "../../img/aboutUs2.png";
+import HorizontallyBanner from "../Banners/HorizontallyBanner";
 
 const DeliveryPage = function () {
     return (
         <div className="container">
+            <HorizontallyBanner/>
             <div className="text">
                 <h1>Отзывы</h1>
                 <div className="textImage">

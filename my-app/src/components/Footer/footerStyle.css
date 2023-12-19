@@ -1,3 +1,7 @@
+.trees{
+    overflow: hidden;
+}
+
 .footerList{
     display: flex;
     flex-direction: row;
@@ -50,4 +54,47 @@
     display: flex;
     flex-direction: row;
     gap: 11px;
+}
+
+@media (max-width: 500px) {
+    .trees img{
+        width: 1000px;
+    }
+    
+    .footerList {
+        flex-direction: column;
+
+        padding: 0;
+    }
+
+    .borders{
+        border-left: none  ;
+        border-right: none;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    .footerListElement {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 10px;
+        width: 350px;
+    }
+
+    .footerListElement a, .footerListElement p{
+        margin:auto;
+
+        font-size: 13px;
+    }
+
+    .icons{
+        width: 200px;
+        margin: auto;
+    }
+
+    .icons img{
+        width: 30px;
+    }
 }

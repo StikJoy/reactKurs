@@ -7,10 +7,13 @@ const TyPage = function () {
         <div>
             <div className="container">
                 <div className="tyElements">
-                    <img src="my-app/src/components/Pages/TyPage#" alt="#"/>
+                    <img src={require('../../img/gifLogo.gif')} alt="#"/>
                     <h1>Спасибо за заказ</h1>
                     <p>Наш менеджер скоро свяжется с вами!</p>
-                    <button>Вернуться в магазин</button>
+                    <a href="/MainPage">
+                        <button>Вернуться в магазин</button>
+                    </a>
+
                 </div>
             </div>
         </div>

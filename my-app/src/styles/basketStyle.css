@@ -34,6 +34,8 @@
     font-weight: 500;
     line-height: normal;
 
+    margin: 0;
+
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -103,4 +105,29 @@
 
 @media (max-width: 1400px){
 
+}
+
+@media (max-width: 500px){
+    .basketInfoPrice {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        margin: 10px 0;
+    }
+
+    .basketElements {
+        margin: 0;
+    }
+
+    .basketBody {
+        flex-direction: column-reverse;
+
+        gap: 10px;
+    }
+
+    .basketButtonNext{
+        margin: auto;
+        text-align: center;
+    }
 }

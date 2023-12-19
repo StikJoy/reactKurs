@@ -44,3 +44,9 @@
     font-weight: 300;
     line-height: normal;
 }
+
+.tyElements img{
+    width: 245px;
+
+    margin: 0 auto;
+}

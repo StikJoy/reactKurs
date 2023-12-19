@@ -111,3 +111,47 @@
 @media (max-width: 1400px){
 
 }
+
+@media (max-width: 500px){
+    .row{
+        flex-wrap: nowrap;
+    }
+
+
+    .bookCard {
+        width: 150px;
+        height: 230px;
+        margin: 15px auto;
+        background: #F5F3EB;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.30);
+    }
+
+    .bookImage img{
+        width: 88px;
+        height: 129px;
+    }
+
+    .bookDescription {
+        padding: 0 10px;
+    }
+
+    .nameAuthor h3 {
+        font-size: 11px;
+    }
+
+    .nameAuthor p {
+        font-size: 9px;
+    }
+
+    .price {
+        font-size: 11px;
+    }
+
+    .add {
+        width: 80px;
+        height: 30px;
+
+        font-size: 9px;
+
+    }
+}

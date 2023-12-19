@@ -12,6 +12,9 @@ const Footer = function () {
     return (
         <div>
             <div className="footerContainer">
+                <div className="trees">
+                    <img src={require('./img/DownBanner.gif')} alt="#"/>
+                </div>
                 <div className="container">
                     <div className="footerList">
                         <div className="footerListElement">

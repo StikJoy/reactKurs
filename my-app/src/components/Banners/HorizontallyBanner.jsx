@@ -7,9 +7,11 @@ const HorizontallyBanner = function () {
     return (
         <div>
             <div className="container">
-                <div className="banner">
-                    <img src={require('./img/gifBanner.gif')} alt="#"/>
-                </div>
+                <a href="#sale">
+                    <div className="banner">
+                        <img src={require('./img/gifBanner.gif')} alt="#"/>
+                    </div>
+                </a>
             </div>
         </div>
     );

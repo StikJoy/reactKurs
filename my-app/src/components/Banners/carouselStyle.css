@@ -4,7 +4,6 @@
 
     margin: 40px auto;
 
-    background-color: #ECB800;
 }
 
 .carouselBanner{
@@ -14,4 +13,33 @@
     margin: 0 auto 40px auto;
 
     background-color: black;
+}
+
+@media (max-width: 500px) {
+    .carouselBanner {
+        width: 350px;
+        height: 120px;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 1rem;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 8px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 0rem;
+    }
+
+    .banner{
+        height: 30px;
+    }
+
+    .banner, .banner img{
+        width: 320px;
+
+        margin: 10px auto;
+    }
 }

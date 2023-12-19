@@ -12,7 +12,8 @@ const Carousel = function () {
     return (
         <div>
             <div className="container">
-                <div className="carousel">
+                <a href="#catalog">
+                    <div className="carousel">
                     <div className="carouselBanner">
                         <div id="carouselExampleIndicators" className="carousel slide">
                             <div className="carousel-indicators">
@@ -52,6 +53,7 @@ const Carousel = function () {
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
     );

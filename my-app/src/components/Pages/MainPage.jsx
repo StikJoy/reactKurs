@@ -9,8 +9,12 @@ const MainPage = function () {
         <div>
            <HorizontallyBanner/>
            <Carousel/>
-            <CarouselCards/>
-           <Books/>
+            <a name="sale">
+                <CarouselCards/>
+            </a>
+            <a name="catalog">
+                <Books/>
+            </a>
         </div>
     );
 };

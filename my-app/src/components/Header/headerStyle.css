@@ -60,6 +60,75 @@ a{
     cursor: default;
 }
 
+/*BurgerMenu*/
+
+.navBurger{
+    display: none;
+}
+
+.logoBurger img{
+    width: 37px;
+
+    margin: 5px;
+}
+
+.basketBurger{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 10px;
+
+    margin: 5px;
+}
+
+.basketBurger a{
+    color: #FFF;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.navBurgerBar, .navBurgerElement{
+    display: flex;
+
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 0;
+    margin: 0;
+
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.open{
+    opacity: 1;
+    max-height: 300px;
+}
+
+.navBurgerElement p{
+    margin: 10px 0;
+}
+
+.navBurgerElement a,.navBurgerElement span {
+    color: #fff;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
 /*SearchBar*/
 
 .searchBar{
@@ -210,6 +279,10 @@ a{
     width: 100%;
 }
 
+.lights{
+    overflow: hidden;
+}
+
 
 @media (max-width: 1400px){
 
@@ -239,6 +312,70 @@ a{
 
     .basket a{
         font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navBar{
+        display: none;
+    }
+
+    .navBurger{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo, .basket, .catalogButton img{
+        display: none;
+    }
+
+    .catalogButton {
+        width: 85px;
+        height: 30px;
+        display: block;
+        border: none;
+        border-radius: 5px;
+        background-color: #F2E4CC;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .catalogButton p {
+        font-size: 13px;
+    }
+
+    .searchInput{
+        width: 200px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .searchBar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .interactivity {
+        width: 100%;
+        gap: 0;
+        justify-content: space-between;
+
+        margin: 15px 0;
+    }
+
+    .searchButton{
+        width: 50px;
+        height: 30px;
+    }
+
+    .searchButton img{
+        width: 20px;
+    }
+
+    .lights img{
+        width: 1000px;
     }
 }
 

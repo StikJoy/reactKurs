@@ -111,7 +111,7 @@ const Basket = function () {
                                     <p>{finalPrice} руб.</p>
                                 </div>
 
-                                <Link to="/OrderPage">
+                                <Link to="/OrderPage" className="basketButtonNext">
                                     <button>Перейти к оформлению</button>
                                 </Link>
                             </div>

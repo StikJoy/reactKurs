@@ -19,7 +19,7 @@ const BasketProduct = function (props) {
                 <img src={img} alt=""/>
             </div>
             <div className="basketProductInfo">
-                <div className="nameAuthor">
+                <div className="nameAuthorBasket">
                     <h3>{props.post.name}</h3>
                     <p>{props.post.author}</p>
                 </div>

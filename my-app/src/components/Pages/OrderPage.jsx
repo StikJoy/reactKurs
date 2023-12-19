@@ -1,12 +1,13 @@
 import React from 'react';
 import "../../styles/containerStyle.css";
 import "../../styles/orderStyle.css";
+import {Link} from "react-router-dom";
 
 const OrderPage = function () {
     return (
         <div>
-          <div className="container">
-              <div className="orderElements">
+            <div className="container">
+                <div className="orderElements">
                   <div className="title">
                       <h1>Оформление заказа</h1>
                   </div>
@@ -29,7 +30,7 @@ const OrderPage = function () {
                                   <h2>Адрес доставки</h2>
                                   <div className="orderInputElements">
                                       <input type="text" placeholder={"Адрес*"}/>
-                                      <input type="text" placeholder={"Почта"}/>
+                                      <input type="text" placeholder={"Комментарий"}/>
                                   </div>
                               </div>
                           </div>
@@ -59,7 +60,9 @@ const OrderPage = function () {
                       <hr/>
 
                       <div className="submitButton">
-                          <button>Оформить</button>
+                          <Link to="/TyPage">
+                              <button>Оформить</button>
+                          </Link>
 
                           <div className="finalPrice">
                               <p>Итог</p>

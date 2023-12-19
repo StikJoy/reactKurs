@@ -28,7 +28,7 @@ const CarouselCards = () => {
 
     return (
         <div className="cardFon" style={{ backgroundColor: '#58746E', width: '100%'}}>
-            <div className="container" style={{ backgroundColor: '#58746E', padding: '20px', margin: '20px auto' }}>
+            <div className="container" style={{ overflow: 'hidden', backgroundColor: '#58746E', margin: '20px auto' }}>
 
                 <div className="row">
                     {cards.slice(currentSlide, currentSlide + 4).map((card) => (
@@ -38,7 +38,7 @@ const CarouselCards = () => {
                     ))}
                 </div>
 
-                <div className="mt-3">
+                <div>
                     <button className="carouselButt" onClick={prevSlide} disabled={currentSlide === 0}>
                         Назад
                     </button>
