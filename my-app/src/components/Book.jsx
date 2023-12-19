@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "../styles/containerStyle.css";
 import "./Books/bookCard.css";
-import name from "../img/22.jpeg";
+import name from "./imgCards/1.webp"
 
 import bookList, { addItemIfNotExists } from "./BookList";
 

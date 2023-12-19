@@ -113,7 +113,7 @@
     padding: 10px;
     margin: 5px;
 
-    background-color: #F5F3EB;;
+    background-color: #F5F3EB;
 }
 
 /*SUBMIT*/
@@ -170,5 +170,50 @@ hr{
 
     .orderInputElements {
         width: 650px;
+    }
+}
+
+@media (max-width: 500px){
+    .orderElements {
+        margin: 0;
+    }
+
+    .orderForm {
+        flex-direction: column;
+    }
+
+    .orderInput {
+        width: 300px;
+        padding: 0;
+    }
+
+    .orderInput input{
+        width: 100%;
+    }
+
+    .fio {;
+        flex-direction: column;
+    }
+
+    .orderInputElements {
+        width: 300px;
+        padding: 0;
+    }
+
+    .submitButton {
+        gap: 0vw;
+        flex-direction: column-reverse;
+
+        margin: 0;
+
+        text-align: center;
+    }
+
+    .submitButton button {
+        width: 50vw;
+    }
+
+    .finalPrice{
+        justify-content: center;
     }
 }

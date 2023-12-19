@@ -5,7 +5,7 @@ const DeliveryPage = function () {
     return (
         <div className="container">
             <div className="text">
-                <h1>Доставка</h1>
+                <h1>Реквизиты организации</h1>
 
                 <pre>
 ООО «Bookly.РУ»ИНН 7728644571 / КПП 771701001,129 626, <br/>

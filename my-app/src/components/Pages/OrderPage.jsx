@@ -52,7 +52,7 @@ const OrderPage = function () {
 
                               <div className="agree">
                                   <input type="checkbox" name="checkbox" id="checkbox"/>
-                                  <label htmlFor="checkbox">Согласие с обработкой данных</label>
+                                  <label htmlFor="checkbox">Согласие на обработку данных</label>
                               </div>
                           </div>
                       </div>

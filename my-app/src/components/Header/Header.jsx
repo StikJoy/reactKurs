@@ -58,7 +58,7 @@ const Header = function () {
                 <div className={`navBurgerBar ${isOpen ? 'open' : ''}`}>
                     <div className={`navBurgerElement ${isOpen ? 'open' : ''}`}>
                         <Link to="/DeliveryPage">Оплата и доставка</Link>
-                        <Link to="/AboutPage">Рейтинги/Отзывы</Link>
+                        <Link to="/AboutPage">Отзывы</Link>
                         <Link to="/MainPage">Скидки</Link>
                     </div>
 

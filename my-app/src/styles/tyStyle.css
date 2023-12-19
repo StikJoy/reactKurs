@@ -50,3 +50,9 @@
 
     margin: 0 auto;
 }
+
+@media (max-width: 500px){
+    .tyElements button {
+        width: 46vw;
+    }
+}

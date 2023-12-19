@@ -6,16 +6,16 @@ const CarouselCards = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const [cards] = useState([
-        { id: 1, image: "../img/book.png", name: "Книга1", author: "Автор1", price: 111 },
-        { id: 2, image: "../img/book.png", name: "Книга2", author: "Автор2", price: 222 },
-        { id: 3, image: "../img/book.png", name: "Книга3", author: "Автор3", price: 333 },
-        { id: 4, image: "../img/book.png", name: "Книга4", author: "Автор4", price: 444 },
-        { id: 5, image: "../img/book.png", name: "Книга5", author: "Автор5", price: 555 },
-        { id: 6, image: "../img/book.png", name: "Книга6", author: "Автор6", price: 666 },
-        { id: 7, image: "../img/book.png", name: "Книга7", author: "Автор7", price: 777 },
-        { id: 8, image: "../img/book.png", name: "Книга8", author: "Автор8", price: 888 },
-        { id: 9, image: "../img/book.png", name: "Книга9", author: "Автор9", price: 999 },
-        { id: 10, image: "../img/book.png", name: "Книга10", author: "Автор10", price: 999 },
+        {id: 21,image: "../imgCards/1.webp", name:"Родная кровь", author:"Anne Dar", janre:"любовные романы", price:490},
+        {id: 22,image: "../imgCards/1.webp", name:"Жизнь №2", author:"Anne Dar", janre:"любовные романы", price:490},
+        {id: 23,image: "../imgCards/1.webp", name:"Хрупкое сердце", author:"Янина Логвин", janre:"любовные романы", price:249},
+        {id: 24,image: "../imgCards/1.webp", name:"Ломаные линии судьбы", author:"Татьяна Алюшина", janre:"любовные романы", price:229},
+        {id: 25,image: "../imgCards/1.webp", name:"Семь дней до Мегиддо", author:"Сергей Лукьяненко", janre:"любовные романы", price:379},
+        {id: 26,image: "../imgCards/1.webp", name:"Тысяча свадебных платьев", author:"Барбара Дэвис", janre:"любовные романы", price:449 },
+        {id: 27,image: "../imgCards/1.webp", name:"Когда трещит лед", author:"Алеся Кузнецова", janre:"любовные романы", price:249},
+        {id: 28,image: "../imgCards/1.webp", name:"Совершенные", author:"Марина Суржевская", janre:"любовные романы", price:349 },
+        {id: 29,image: "../imgCards/1.webp", name:"Пополам", author:"Маша Трауб", janre:"любовные романы", price:319 },
+        {id: 30,image: "../imgCards/1.webp", name:"Венецианский контракт", author:"Марина Фиорато", janre:"любовные романы", price:359}
     ]);
 
     const nextSlide = () => {
